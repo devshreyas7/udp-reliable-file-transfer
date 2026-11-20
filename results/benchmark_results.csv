@@ -1,0 +1,13 @@
+Experiment,Protocol,Window,Loss_Pct,Elapsed_s,Goodput_kbps,Total_Sent,Retransmissions
+ARQ_Loss_Comparison,Stop-and-Wait (Baseline W=1),1,0,0.32,1638.18,66,0
+ARQ_Loss_Comparison,Sliding Window GBN (W=5),5,0,0.2862,1832.05,66,0
+ARQ_Loss_Comparison,Sliding Window GBN (W=10),10,0,0.2927,1790.98,66,0
+ARQ_Loss_Comparison,Stop-and-Wait (Baseline W=1),1,2,0.4407,1189.64,68,2
+ARQ_Loss_Comparison,Sliding Window GBN (W=5),5,2,0.2829,1853.43,66,0
+ARQ_Loss_Comparison,Sliding Window GBN (W=10),10,2,0.2987,1755.32,66,0
+ARQ_Loss_Comparison,Stop-and-Wait (Baseline W=1),1,5,0.499,1050.6,69,3
+ARQ_Loss_Comparison,Sliding Window GBN (W=5),5,5,0.4045,1296.03,96,30
+ARQ_Loss_Comparison,Sliding Window GBN (W=10),10,5,0.5682,922.69,136,70
+ARQ_Loss_Comparison,Stop-and-Wait (Baseline W=1),1,10,0.6276,835.33,71,5
+ARQ_Loss_Comparison,Sliding Window GBN (W=5),5,10,0.3447,1521.01,89,23
+ARQ_Loss_Comparison,Sliding Window GBN (W=10),10,10,1.2272,427.22,312,246

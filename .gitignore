@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+received_files/
+received_h2/
+received_h4/
+recv_*
+sample*.bin
